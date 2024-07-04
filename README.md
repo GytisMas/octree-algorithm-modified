@@ -1,1 +1,1 @@
-A modified version the octree algorithm
+A modified version of the octree algorithm.
