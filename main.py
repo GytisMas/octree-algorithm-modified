@@ -22,7 +22,7 @@ center_offset = [0, 0, 0]
 # points when building tree
 debug = True
 
-# remove points that are inside subdivision cude 
+# remove points that are inside subdivision cube 
 # but outside of same cube's sphere. 
 # setting this to False leaves these points in the parent node
 remove_points_outside_sphere = True
