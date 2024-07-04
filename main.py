@@ -1,5 +1,3 @@
-
-
 import numpy as np
 import laspy
 import open3d as o3d
