@@ -30,7 +30,7 @@ def create_bounds_sphere(box, sphere_density):
 
 def create_bounds_cube(box, color, cube_density):
     geom = o3d.geometry.PointCloud()
-    geom.points = o3d.utility.Vector3dVector(box.bounds_geometry(cube_density))
+    geom.points = o3d.utility.Vector3dVector(box.bounds_cube(cube_density))
     geom.paint_uniform_color(color)
     return geom
 
